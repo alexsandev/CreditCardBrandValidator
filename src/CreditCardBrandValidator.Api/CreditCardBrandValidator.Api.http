@@ -1,6 +1,6 @@
 @CreditCardBrandValidator.Api_HostAddress = http://localhost:5068
 
-GET {{CreditCardBrandValidator.Api_HostAddress}}/weatherforecast/
+GET {{CreditCardBrandValidator.Api_HostAddress}}/ValidateCard/
 Accept: application/json
 
 ###
