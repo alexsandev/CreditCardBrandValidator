@@ -38,7 +38,7 @@ Para executar esta API localmente, você precisará do **SDK do .NET** instalado
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/alexsandev/CreditCardBrandValidator](https://github.com/alexsandev/CreditCardBrandValidator)
+    git clone https://github.com/alexsandev/CreditCardBrandValidator
     ```
 2.  **Entre na pasta do projeto:**
     ```bash
@@ -46,7 +46,7 @@ Para executar esta API localmente, você precisará do **SDK do .NET** instalado
     ```
 3.  **Execute a aplicação:**
     ```bash
-    dotnet run
+    dotnet run --project .\src\CreditCardBrandValidator.Api\CreditCardBrandValidator.Api.csproj
     ```
 4.  **Acesse a documentação (Swagger):**
     Com o projeto rodando, abra o navegador em: `http://localhost:5000/swagger` (ou a porta exibida no seu console) para testar os endpoints interativamente.
